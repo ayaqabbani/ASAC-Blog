@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAC</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>ASAC</h1>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </header>
+    <main>
+            <form id="userInput">
+                <label for="Author Name">Author Name</label>
+                <input type="text" name="authorName" >
+                <label for="Article Title">Article title</label>
+                <input type="text" name="articletitle">
+                <select name="subject">
+                    <option name="subject">Subject</option>
+                    <option value="coding">Coding</option>
+                    <option value="3dprinting">3D Printing</option>
+                    <option value="cybersecurity">Cyber security</option>
+                    <option value="AI">AI</option>
+                </select>
+                    <label for="content">Content</label>
+                    <textarea rows="5" cols="20" name="content"></textarea><br>
+                    <label for="day">Day</label>
+                    <input type="text" name="day"><br>
+                    <label for="month">Month</label>
+                    <input type="text" name="month"><br>
+                    <label for="year">Year</label>
+                    <input type="text" name="year"><br>
+                    <input id='button' type="submit">
+            </form>
+        </section>
+        <section id="para">
+        </section>
+    </main>
+    <footer></footer>
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
